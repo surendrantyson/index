@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<title>Welcome to Empor Energy Saver</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+        $(function() {
+            $('.dbuttonp').click(function() {
+                $('body,html').animate({scrollTop:390},700);
+            });	
+        });
+        </script>  
+		 <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() != 0) {
+                    $('.topbutton').fadeIn();	
+                } else {
+                    $('.topbutton').fadeOut();
+                }
+            });
+         
+            $('.topbutton').click(function() {
+                $('body,html').animate({scrollTop:0},800);
+            });	
+        });
+        </script>  
+		<style>
+		body{ background-color:#f8f8f8;}
+		</style>
+</head>
+<body>
+<header>
+<nav  class="navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top " role="navigation" id="header">
+<div class="container">
+<div class="navbar-header">
+</div>
+<div class="col-md-2">
+<a href=""><img class="logo" src="image/logo.png"></a>
+<div class="mobilenav">
+<div class="menu-mobile-menu-neo-container">
+</div>                
+</div>
+</div>
+<div style=" 
+margin: 25px 0 0 0; " class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">          
+<ul class="nav navbar-nav">
+<li><a href="index.html" >HOME</a></li>
+<li><a href="Energy-tech-page.html" >TECH SUMMARY</a></li>
+<li><a href="Energy-product-page.html" >PRODUCTS</a></li>
+<li><a href="Energy-case-studies-page.html" >CASE STUDIES</a></li>
+<li><a href="Energy-envi-page.html" >ENVIRONMENTAL</a></li>
+<li><a href="Energy-contact-us-page.html" >CONTACT US</a></li>
+</ul> 
+<div> 
+<a href=""><img class="flag" src="image/us-flag.png"></a>
+<select class="box">
+<option value="volvo">English</option>
+</select>
+ </div>           
+</div>
+</div>
+</nav>
+</header>
+<section class="down">
+</section>
+<section style=" background-image: url(image/envi.jpg); " class="subm">
+<br>
+<br>
+<br>
+<br clear="all">
+<h2 class="env">Help US to Save...<h2>
+<div  class="envline"></div>
+<p class="ennv"><em>Your money, our environment</em></p>
+<br>
+<div  class="dbuttonp">
+<img src="image/i1.png" alt="">
+</div>
+</section>
+</section>
+</section>
+<div class="container">
+<br><br>
+<section style="margin: 70px 0 18px 0 ;">
+    <div style="width:100%; height:35px; border-top:#01a0e2 4px solid; vertical-align:top; margin:0px auto">
+        <div class= "haedline1"style="float:left; background-color:#01a0e2"><h1 style="color:#FFFFFF; margin:5px 5px;font-size:28px;padding:0 5px 0 5px;">Environmental Benifits</h1></div>
+        <div class= "haedline2" style="float:left"><img src="image/drip_1.png" width="25" height="40"></div>
+    </div>
+	</section>
+ <br><br>
+<p class="ti">Business corporations worldwide are increasing their attention towards reducing their impact on climate change, mainly through the reduction of CO2 emissions and environmental pollution.</P>
+
+<p class="ti">In particular, an increasing number of corporations are working on the reduction of their carbon footprint. With the combination of technology, energy management and CO2 emissions management, companies can cooperate more effectively, increase competitiveness, and improve the public perception of their brand as environmentally responsible.</P>
+
+<p class="ti">The EMPORes technology is ready to help you face these challenges through the optimization of energy consumption in your facility, and reduction of CO2 emissions. Additionally, our technology allows you to model your carbon footprint through our carbon management calculator. Our technology allows your company to contribute toward the goal of environmental sustainability or, in other words, keeping our planet green.
+</P>
+<p class="ti"><b>Our vision is to drive technology towards contributions in the field of energy conservation.</b></P>
+
+<p class="ti">Energy efficiency and carbon footprint reduction are gaining worldwide popularity in both the private and public sectors. Companies are becoming aware of the need to reduce not only costs, but also environmental impact, and the EMPORes unit is a powerful solution that can help them achieve that goal with up to 30% reductions in emissions. Consider all the new electrical power plants that will not be required if electrical energy consumption is reduced by 7-10% with our EMPORes technology.</P>
+</div>
+</div>
+</div>
+<hr>
+<footer>   
+<div class="copright">© emporesllc.com 2015</div>
+<div class="topbutton" style="display: block;"><span class="fa fa-angle-up"></span></div>
+</footer>
+</body>
+</html>
