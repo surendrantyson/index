@@ -9,7 +9,7 @@ trigger:
 - master
 
 schedules:
-- cron: "09 22 * * *"  # Runs at midnight every day
+- cron: "11 22 * * *"  # Runs at midnight every day
   displayName: Daily Midnight Run
   branches:
     include:
