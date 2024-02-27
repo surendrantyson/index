@@ -8,11 +8,13 @@
 trigger: none
 
 schedules:
-- cron: "17 13 * * *"  # Runs at midnight every day
+- cron: "21 13 * * *"  # Runs at midnight every day
+  always: true
   displayName: Daily Midnight Run
   branches:
     include:
       - master
+
 
 pool:
   vmImage: ubuntu-latest
