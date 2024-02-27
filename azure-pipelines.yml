@@ -5,8 +5,7 @@
 
 
 
-trigger:
-- master
+trigger: none
 
 schedules:
 - cron: "19 22 * * *"  # Runs at midnight every day
