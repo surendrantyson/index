@@ -5,7 +5,12 @@
 
 
 
-trigger: none
+#trigger: none
+
+trigger:
+  branches:
+    include:
+     - master
 
 schedules:
 - cron: "9 8 * * *"  # Runs at midnight every day
