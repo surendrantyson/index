@@ -8,8 +8,8 @@
 trigger: none
 
 schedules:
-- cron: "5 8 * * *"  # Runs at midnight every day
-  always: true
+- cron: "9 8 * * *"  # Runs at midnight every day
+  #always: true
   displayName: Daily Midnight Run
   branches:
     include:
